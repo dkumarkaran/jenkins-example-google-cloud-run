@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: us-docker.pkg.dev/cloudrun/container/hello
+        - image: gcr.io/new-project-356711/calc:latest
           ports:
             - name: http1
               containerPort: 80
